@@ -1582,7 +1582,7 @@ def background_grid():  # 读取背景网格的信息
     global bgpx, bgpy, bgcx, bgcy, bgcr, bgnod, bgnoe
     i = 0
     j = 0
-    bgn = open(background_gridt_file, "r+")
+    bgn = open(background_nod_file, "r+")
     bgno = open(background_noe_file, "r+")
     bgg = open(background_gridt_file, "r+")
     bgs = open(background_step_file, "r+")

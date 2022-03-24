@@ -31,27 +31,27 @@ def change(type):
     boun[2] = 23
     boun[3] = 35
     boun[4] = 47
-    boun[5] = 56
-    boun[6] = 69
+    boun[5] = 58
+    boun[6] = 70
     boun[7] = 81
-    boun[8] = 93
-    boun[9] = 105
-    boun[10] = 119
-    boun[11] = 131
-    boun[12] = 143
-    boun[13] = 155
-    boun[14] = 167
-    boun[15] = 180
-    boun[16] = 192
-    boun[17] = 204
-    boun[18] = 216
-    boun[19] = 228
-    boun[20] = 240
-    boun[21] = 250
-    boun[22] = 264
-    boun[23] = 278
-    boun[24] = 291
-    boun[25] = 300
+    boun[8] = 92
+    boun[9] = 103
+    boun[10] = 115
+    boun[11] = 127
+    boun[12] = 138
+    boun[13] = 149
+    boun[14] = 160
+    boun[15] = 173
+    boun[16] = 186
+    boun[17] = 197
+    boun[18] = 208
+    boun[19] = 219
+    boun[20] = 232
+    boun[21] = 242
+    boun[22] = 254
+    boun[23] = 266
+    boun[24] = 278
+    boun[25] = 289
 
     npoch = np.loadtxt('npoch.dat', dtype=np.int64)
     for i in close_point:

@@ -18,7 +18,7 @@ boundary_gridt_file = "boungridt.dat"
 boundary_npoch_file = "bounpoch.dat"
 
 # 第2步：选择边界类型
-side_type = 2
+SIDE_TYPE = 2
 # side_type : 1 - (暂时没用到过)
 #             2 - 单段连续边界，对应RyR小圆，点的属性全都是4
 #             3 - 分段连续边界，对应终池大圆，点的属性有1有2
@@ -106,7 +106,7 @@ def main():
     arcbo = npp.zeros(2000, float)
     filename = ""
 
-    sidetype = 2
+    sidetype = SIDE_TYPE
     boungridt_file = open(boundary_gridt_file, "w+")
     bounpoch_file = open(boundary_npoch_file, "w+")
     # sidetype=1 离散形式的边界
@@ -162,8 +162,8 @@ def arc_to_xy(arc):
     :return:    x,y 绝对位置
     '''
     rad = SMALL_RADIUS
-    x = rad * cos(-arc)
-    y = rad * sin(-arc)
+    x = rad * cos(- arc / rad)
+    y = rad * sin(- arc / rad)
     x = x + cent_x  # 偏移量
     y = y + cent_y
     return x, y

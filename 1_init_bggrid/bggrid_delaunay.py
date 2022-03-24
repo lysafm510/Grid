@@ -11,8 +11,8 @@ from math import sqrt
 background_grid_file = "bggridt.dat"
 
 # 输出：
-background_nod_file = "bg_nod.dat"
-background_noe_file = "bg_noe.dat"
+background_nod_file = "bgnod.dat"
+background_noe_file = "bgnoe.dat"
 
 
 # *******************************************************************
